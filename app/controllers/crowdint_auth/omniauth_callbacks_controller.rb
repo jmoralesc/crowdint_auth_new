@@ -24,5 +24,4 @@ class CrowdintAuth::OmniauthCallbacksController < Devise::OmniauthCallbacksContr
   def google_apps_sign_in
     redirect_to user_omniauth_authorize_path :google_oauth2
   end
-  end
 end
